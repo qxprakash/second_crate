@@ -2,6 +2,10 @@
 name = "second_crate"
 version = "0.1.0"
 edition = "2021"
+description = "A test crate for Docify functionality"
+license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/second_crate"
+
 
 [dependencies]
 docify_clone = "0.0.1"
