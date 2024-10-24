@@ -1,16 +1,11 @@
-//! This is the documentation for `second_crate`.
+//! # Documentation for `second_crate`
 //!
-//! Here’s how you can use a function from the `first_crate`:
+//! Here's how we use an example from `first_crate`:
 //!
 //! ```rust
-//! use first_crate::greet;
-//!
-//! fn main() {
-//!     println!("{}", greet());
-//! }
+//! # use first_crate::example_to_embed;
+//! example_to_embed();
 //! ```
 
-// Ensure `first_crate` is available as a dependency for documentation purposes
-pub fn example_usage() {
-    println!("{}", first_crate::greet());
-}
+#[doc = docify::embed!("../first_crate/src/lib.rs", example_to_embed)]
+pub struct SomeItem;
