@@ -5,4 +5,3 @@ edition = "2021"
 
 [dependencies]
 docify = "0.2.8"
-first_crate = { path = "../first_crate" }
