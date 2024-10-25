@@ -8,9 +8,9 @@
 //! ```
 
 // Set up git fallback
-docif::set_git_fallback!("https://gitlab.com/prakashh21/first_crate.git", "src/lib.rs");
+docify_clone::set_git_fallback!("https://gitlab.com/prakashh21/first_crate.git", "src/lib.rs");
 
-#[doc = docif::embed!("first_crate/src/lib.rs", example_to_embed)]
+#[doc = docify_clone::embed!("first_crate/src/lib.rs", example_to_embed)]
 pub struct SomeItem;
 
 
