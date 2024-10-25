@@ -8,4 +8,4 @@ documentation = "https://docs.rs/second_crate"
 
 
 [dependencies]
-docify_clone = "0.0.2"
+docify_clone = "0.0.3"
