@@ -8,4 +8,4 @@ documentation = "https://docs.rs/second_crate"
 
 
 [dependencies]
-docify_clone = { path = "../../docify" }
+docify_clone = "0.0.4"
