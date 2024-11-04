@@ -8,4 +8,4 @@ documentation = "https://docs.rs/second_crate"
 
 
 [dependencies]
-docif = { path = "../../docify" }
+docif = { path = "../../temp/docify" }

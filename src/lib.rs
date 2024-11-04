@@ -7,10 +7,11 @@
 //! example_to_embed();
 //! ```
 
-// Set up git fallback
-docif::set_git_fallback!("https://gitlab.com/prakashh21/first_crate.git", "src/lib.rs");
 
-#[doc = docif::embed!("first_crate/src/lib.rs", example_to_embed)]
+// Declare the nested module
+pub mod nested;
+
+#[doc = docif::embed!("src/nested/nested_file.rs", nested_example)]
 pub struct SomeItem;
 
 
